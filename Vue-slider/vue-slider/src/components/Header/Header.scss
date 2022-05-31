@@ -1,0 +1,25 @@
+header[data-component='header'] {
+  display: flex;
+  flex-direction: column;
+  border-top: 4px solid #ffd800;
+  border-bottom: 1px solid #d1d1d1;
+
+  > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #d1d1d1;
+    height: 59px;
+    padding: 0 30px;
+  }
+
+  [data-part='logo'] {
+    height: 40px;
+    width: 40px;
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

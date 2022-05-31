@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #999;
+  height: 68px;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 23px;
+    overflow: hidden;
+    gap: 30px;
+
+    li {
+      list-style: none;
+
+      a {
+        position: relative;
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+}

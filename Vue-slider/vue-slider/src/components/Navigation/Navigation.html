@@ -1,0 +1,5 @@
+<ul data-component="navigation">
+  <li v-for="(link, index) in navigation" :key="index">
+    <a :href="link.href" :target="link.target">{{ link.text }}</a>
+  </li>
+</ul>

@@ -1,0 +1,31 @@
+<div id="app">
+  <Header :navigation="navigationLinks" />
+  <Hero :image="{ src: 'https://picsum.photos/1350/250', alt: 'hero' }" />
+
+  <section data-content>
+    <Block title="Block Title" layout="row">
+      <Teaser v-for="( teaser, index) in rowTeasers" :key="index" :link="teaser.link" :image="teaser.image"
+        :title="teaser.title" :text="teaser.text" />
+    </Block>
+    <Block title="Block Title" layout="row">
+      <Teaser v-for="( teaser, index) in rowTeasers" :key="index" :link="teaser.link" :image="teaser.image"
+        :title="teaser.title" :text="teaser.text" />
+    </Block>
+
+    <Block title="Block Title" layout="doubleRow">
+      <Teaser v-for="( teaser, index) in doubleRowTeasers" :key="index" :link="teaser.link" :image="teaser.image"
+        :title="teaser.title" :text="teaser.text" />
+    </Block>
+
+    <Block title="Block Title" layout="row">
+      <Teaser v-for="( teaser, index) in rowTeasers" :key="index" :link="teaser.link" :image="teaser.image"
+        :title="teaser.title" :text="teaser.text" />
+    </Block>
+
+    <Block title="Block Title" layout="doubleRowMiddle">
+      <Teaser v-for="( teaser, index) in doubleRowTeasers" :key="index" :link="teaser.link" :image="teaser.image"
+        :title="teaser.title" :text="teaser.text" />
+    </Block>
+  </section>
+  <Footer />
+</div>
