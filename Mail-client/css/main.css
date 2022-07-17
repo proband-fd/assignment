@@ -1,0 +1,30 @@
+html {
+  --primary-color: grey;
+}
+
+html, body {
+  height: 100vh;
+}
+
+
+.app-header {
+  height: 30px;
+  background-color: var(--primary-color)
+}
+
+.app-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 10px;
+  width: 100%;
+  height: calc(100% - 70px);
+}
+
+.app-navigation__list {
+  list-style-type: square;
+}
+
+.app-navigation__list-item {
+  margin-bottom: 8px;
+}

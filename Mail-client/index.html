@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail Client</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/mail-list.css">
+    <script src="/js/service.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/mail.js"></script>
+    <script src="/js/navigation.js"></script>
+  </head>
+  <body>
+    <header class="app-header">
+    </header>
+    <section class="app-content">
+      <nav class="app-navigation">
+        <ul class="app-navigation__list">
+          <li class="app-navigation__list-item" data-email-type="inbox">Inbox</li>
+          <li class="app-navigation__list-item" data-email-type="sent">Sent</li>
+          <li class="app-navigation__list-item" data-email-type="trash">Trash</li>
+        </ul>
+      </nav>
+      <div class="app-mail-list__container">
+        <input class="app-mail-list__searchbar" id="mail-searchbar" type="text" />
+        <div class="app-mail-list__list" id="mail-list">
+          <div class="app-mail-item">
+            <div class="app-mail-item__header">
+              <div>Name</div>
+              <div>Time</div>
+            </div>
+            <div class="app-mail-item__title">Title of the Email</div>
+            <div class="app-mail-item__content"> Example email content that is probably shortened to a certain extend</div>
+          </div>
+        </div>
+      </div>
+      <div class="app-mail-content__container" id="mail-content" />
+    </section>
+</body>
+</html>
