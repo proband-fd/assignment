@@ -1,12 +1,69 @@
 {
-  "inbox": [
-    {
+  "inbox": [{
       "from": "tina.mustermann@web.de",
       "to": "markus.mustermann@web.de",
       "subject": "Lorem ipsum",
       "body": "Lorem ipsum dolor sit amet, <img src='https://via.placeholder.com/468x60?text=Visit+web.de+Now' /> consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "hasAttachment": true,
-      "timestamp": 1582899060170
+      "timestamp": 1582822060170
+    },
+    {
+      "from": "jane@web.de",
+      "to": "alice@web.de",
+      "subject": "Another Mail",
+      "body": "Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "hasAttachment": false,
+      "timestamp": 1582898860170
+    },
+    {
+      "from": "jack@web.de",
+      "to": "richard@web.de",
+      "subject": "And another mail",
+      "body": "Lorem ipsum dolor sit amet, <img src='https://via.placeholder.com/468x60?text=Visit+web.de+Now' /> consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+      "hasAttachment": true,
+      "timestamp": 1582899010170
+    },
+    {
+      "from": "bob@web.de",
+      "to": "bill@web.de",
+      "subject": "Too many mails",
+      "body": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "hasAttachment": false,
+      "timestamp": 1582895060170
+    }
+  ],
+  "sent": [{
+      "from": "jack@web.de",
+      "to": "richard@web.de",
+      "subject": "Sent 1",
+      "body": "At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "hasAttachment": false,
+      "timestamp": 1582898060170
+    },
+    {
+      "from": "jacky@web.de",
+      "to": "richi@web.de",
+      "subject": "Sent 2",
+      "body": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "hasAttachment": false,
+      "timestamp": 1582844060170
+    }
+  ],
+  "trash": [{
+      "from": "bob@web.de",
+      "to": "bill@web.de",
+      "subject": "Trash 1",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis itaque recusandae accusamus provident ipsum error quae a minima eos natus sed doloremque ad vero atque rerum nam ratione perspiciatis, nostrum!",
+      "hasAttachment": false,
+      "timestamp": 1582899060070
+    },
+    {
+      "from": "jane@web.de",
+      "to": "alice@web.de",
+      "subject": "Trash 2",
+      "body": "Nobis itaque recusandae accusamus provident ipsum error quae a minima eos natus sed doloremque ad vero atque rerum nam ratione perspiciatis, nostrum!",
+      "hasAttachment": false,
+      "timestamp": 1582899050070
     }
   ]
 }
