@@ -1,0 +1,20 @@
+[data-block].has-slider {
+  position: relative;
+  width: 100%;
+  // TODO: Remove overflow if JS works
+  overflow: scroll;
+
+  // TODO: Remove positioning if JS works
+  & > h2 {
+    position: absolute;
+    left: 0;
+  }
+
+  & > div {
+    grid-auto-flow: column;
+    // TODO: Calculate in JS
+    width: calc(4 * 324px);
+    // TODO: Remove margin-top if JS works
+    margin-top: 2em;
+  }
+}
