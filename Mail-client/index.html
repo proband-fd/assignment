@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mail Client</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body class="grid">
+  <aside class="grid__aside">
+    <nav class="nav">
+      <ul class="nav__links">
+        <li><a href="/inbox">Inbox</a></li>
+        <li><a href="/send">Send</a></li>
+        <li><a href="/trash">Trash</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="grid__main">
+    <header class="search">
+      <input class="search__box" type="text" placeholder="Search for mail...">
+    </header>
+    <section class="mailbox">
+      <!-- Entries dynamically rendered from template -->
+      <div class="mailbox__meta">
+        <span>Showing # of # mails</span>
+      </div>
+    </section>
+    <section class="mail">
+      <h2 class="mail__subject">Title of email</h2>
+      <div class="mail__details">
+        <img class="profile-image" src="https://ui-avatars.com/api/?name=Markus+Mustermann" width="96" height="96" alt="image">
+        <div class="mail__meta">
+          <div class="name --mail">Name</div>
+          <div class="time --mail">Time</div>
+        </div>
+      </div>
+      <article>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores et magni, corrupti sunt facilis sed nihil consequuntur a aut delectus ea ad eligendi ipsam, repellat nulla voluptas enim ratione minima?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores et magni, corrupti sunt facilis sed nihil consequuntur a aut delectus ea ad eligendi ipsam, repellat nulla voluptas enim ratione minima?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores et magni, corrupti sunt facilis sed nihil consequuntur a aut delectus ea ad eligendi ipsam, repellat nulla voluptas enim ratione minima?</p>
+      </article>
+    </section>
+  </main>
+  <template id="mail">
+    <div class="entry">
+      <div class="entry__meta">
+        <span class="name">Name</span>
+        <span class="time">Time</span>
+      </div>
+      <h2 class="entry__subject">Title of email</h2>
+      <p class="entry__snippet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis itaque recusandae accusamus provident ipsum error quae a minima eos natus sed doloremque ad vero atque rerum nam ratione perspiciatis, nostrum!</p>
+    </div>
+  </template>
+</body>
+</html>
